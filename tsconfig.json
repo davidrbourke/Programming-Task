@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "removeComments": true,
+        "sourceMap": true,
+        "incremental": true
+    },
+    "compileOnSave": false,
+    "include": [
+        "source/**/*"
+    ],
+    "exclude": [
+        "./node_modules", 
+        "./distro", 
+        "./.vscode"
+    ]
+}

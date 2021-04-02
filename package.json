@@ -1,0 +1,49 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "Programming challenge",
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "build": "webpack --env.version=0.1.0 --config=build.js",
+    "run": "webpack-dev-server --env.version=0.1.0 --config=build.js",
+    "test:unit": "jest"
+  },
+  "author": "?",
+  "devDependencies": {
+    "@types/jest": "^26.0.22",
+    "@types/webpack": "^4.41.21",
+    "autoprefixer": "^9.8.5",
+    "bootstrap": "^4.5.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.6.0",
+    "file-loader": "^4.3.0",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^26.6.3",
+    "node-sass": "^4.14.1",
+    "postcss-loader": "^3.0.0",
+    "precss": "^4.0.0",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.1",
+    "ts-jest": "^26.5.4",
+    "ts-loader": "^6.2.2",
+    "ttf-loader": "^1.0.2",
+    "typescript": "^3.9.7",
+    "vue-loader": "^15.9.3",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.168",
+    "lodash": "^4.17.21",
+    "vue": "^2.6.11",
+    "vue-router": "^3.3.4"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.ts?$": "ts-jest"
+    }
+  }
+}
